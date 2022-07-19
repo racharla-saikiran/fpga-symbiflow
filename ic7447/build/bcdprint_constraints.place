@@ -1,0 +1,8 @@
+d      30  32  0  # set_io d 38
+c      32   3  0  # set_io c 54
+b      28   3  0  # set_io b 56
+a      24   3  0  # set_io a 59
+$iopadmap$bcdprint.D  28  32  0  # set_io D 36
+$iopadmap$bcdprint.C  30   3  0  # set_io C 55
+$iopadmap$bcdprint.B  26   3  0  # set_io B 57
+$iopadmap$bcdprint.A  22   3  0  # set_io A 60

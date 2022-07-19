@@ -1,0 +1,5 @@
+#Block Name x   y   z    pcf_line
+#------ --  --  -    ----
+x       12   3  0  # set_io x 3
+$iopadmap$finitesm.y  14   3  0  # set_io y 64
+$iopadmap$finitesm.cl  16   3  0  # set_io cl 62

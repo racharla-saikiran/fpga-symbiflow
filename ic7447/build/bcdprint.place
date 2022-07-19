@@ -1,0 +1,15 @@
+Netlist_File: bcdprint.net Netlist_ID: SHA256:3ec0c30c80de82107ca147d5f01d623f59b872b117ed1607e796bcf52b303e0a
+Array size: 39 x 35 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+$iopadmap$bcdprint.A	22	3	0	#0
+$iopadmap$bcdprint.B	26	3	0	#1
+$iopadmap$bcdprint.C	30	3	0	#2
+$iopadmap$bcdprint.D	28	32	0	#3
+a		24	3	0	#4
+b		28	3	0	#5
+c		32	3	0	#6
+d		30	32	0	#7
+$false		3	1	0	#8
+$true		2	1	0	#9

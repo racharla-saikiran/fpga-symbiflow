@@ -1,0 +1,1399 @@
+#Timing report of worst 31 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_8.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_2.t_frag.XSL[0] (T_FRAG)                                            5.290    61.820
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_2.t_frag.XZ[0] (T_FRAG)                                             1.462    63.282
+delay_dff_Q_8.QD[0] (Q_FRAG)                                                                                  0.000    63.282
+data arrival time                                                                                                      63.282
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_8.QCK[0] (Q_FRAG)                                                                                 9.485     9.485
+clock uncertainty                                                                                             0.000     9.485
+cell setup time                                                                                               0.105     9.590
+data required time                                                                                                      9.590
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                      9.590
+data arrival time                                                                                                     -63.282
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -53.691
+
+
+#Path 2
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_26.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_13.t_frag.XSL[0] (T_FRAG)                                           5.274    61.803
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_13.t_frag.XZ[0] (T_FRAG)                                            1.462    63.265
+delay_dff_Q_26.QD[0] (Q_FRAG)                                                                                 0.000    63.265
+data arrival time                                                                                                      63.265
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_26.QCK[0] (Q_FRAG)                                                                                9.611     9.611
+clock uncertainty                                                                                             0.000     9.611
+cell setup time                                                                                               0.105     9.716
+data required time                                                                                                      9.716
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                      9.716
+data arrival time                                                                                                     -63.265
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -53.549
+
+
+#Path 3
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_6.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_1.t_frag.XSL[0] (T_FRAG)                                            4.614    61.143
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_1.t_frag.XZ[0] (T_FRAG)                                             1.462    62.605
+delay_dff_Q_6.QD[0] (Q_FRAG)                                                                                  0.000    62.605
+data arrival time                                                                                                      62.605
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_6.QCK[0] (Q_FRAG)                                                                                 9.583     9.583
+clock uncertainty                                                                                             0.000     9.583
+cell setup time                                                                                               0.105     9.689
+data required time                                                                                                      9.689
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                      9.689
+data arrival time                                                                                                     -62.605
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -52.917
+
+
+#Path 4
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_9.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_2.t_frag.XA2[0] (T_FRAG)                                            4.933    61.462
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_2.t_frag.XZ[0] (T_FRAG)                                             1.605    63.068
+delay_dff_Q_9.QD[0] (Q_FRAG)                                                                                  0.000    63.068
+data arrival time                                                                                                      63.068
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_9.QCK[0] (Q_FRAG)                                                                                10.349    10.349
+clock uncertainty                                                                                             0.000    10.349
+cell setup time                                                                                               0.105    10.455
+data required time                                                                                                     10.455
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     10.455
+data arrival time                                                                                                     -63.068
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -52.613
+
+
+#Path 5
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_22.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_12.t_frag.XSL[0] (T_FRAG)                                           4.997    61.526
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_12.t_frag.XZ[0] (T_FRAG)                                            1.462    62.988
+delay_dff_Q_22.QD[0] (Q_FRAG)                                                                                 0.000    62.988
+data arrival time                                                                                                      62.988
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_22.QCK[0] (Q_FRAG)                                                                               10.444    10.444
+clock uncertainty                                                                                             0.000    10.444
+cell setup time                                                                                               0.105    10.549
+data required time                                                                                                     10.549
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     10.549
+data arrival time                                                                                                     -62.988
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -52.439
+
+
+#Path 6
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : mclk_dffe_Q.QEN[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O.t_frag.XB1[0] (T_FRAG)                                                                  3.141    59.671
+mclk_dffe_Q_EN_LUT3_O.t_frag.XZ[0] (T_FRAG)                                                                   1.501    61.172
+mclk_dffe_Q.QEN[0] (Q_FRAG)                                                                                   2.898    64.070
+data arrival time                                                                                                      64.070
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+mclk_dffe_Q.QCK[0] (Q_FRAG)                                                                                  12.493    12.493
+clock uncertainty                                                                                             0.000    12.493
+cell setup time                                                                                              -0.591    11.903
+data required time                                                                                                     11.903
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     11.903
+data arrival time                                                                                                     -64.070
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -52.168
+
+
+#Path 7
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_15.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8.t_frag.XSL[0] (T_FRAG)                                            6.231    62.760
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8.t_frag.XZ[0] (T_FRAG)                                             1.462    64.222
+delay_dff_Q_15.QD[0] (Q_FRAG)                                                                                 0.000    64.222
+data arrival time                                                                                                      64.222
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_15.QCK[0] (Q_FRAG)                                                                               12.060    12.060
+clock uncertainty                                                                                             0.000    12.060
+cell setup time                                                                                               0.105    12.165
+data required time                                                                                                     12.165
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     12.165
+data arrival time                                                                                                     -64.222
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -52.057
+
+
+#Path 8
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_12.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5.t_frag.XSL[0] (T_FRAG)                                            5.389    61.919
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5.t_frag.XZ[0] (T_FRAG)                                             1.462    63.381
+delay_dff_Q_12.QD[0] (Q_FRAG)                                                                                 0.000    63.381
+data arrival time                                                                                                      63.381
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_12.QCK[0] (Q_FRAG)                                                                               11.229    11.229
+clock uncertainty                                                                                             0.000    11.229
+cell setup time                                                                                               0.105    11.334
+data required time                                                                                                     11.334
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     11.334
+data arrival time                                                                                                     -63.381
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -52.046
+
+
+#Path 9
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_18.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_3.t_frag.XA2[0] (T_FRAG)                                            5.224    61.753
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_3.t_frag.XZ[0] (T_FRAG)                                             1.605    63.359
+delay_dff_Q_18.QD[0] (Q_FRAG)                                                                                 0.000    63.359
+data arrival time                                                                                                      63.359
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_18.QCK[0] (Q_FRAG)                                                                               11.247    11.247
+clock uncertainty                                                                                             0.000    11.247
+cell setup time                                                                                               0.105    11.352
+data required time                                                                                                     11.352
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     11.352
+data arrival time                                                                                                     -63.359
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -52.006
+
+
+#Path 10
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_7.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_1.t_frag.XA2[0] (T_FRAG)                                            3.417    59.946
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_1.t_frag.XZ[0] (T_FRAG)                                             1.605    61.551
+delay_dff_Q_7.QD[0] (Q_FRAG)                                                                                  0.000    61.551
+data arrival time                                                                                                      61.551
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_7.QCK[0] (Q_FRAG)                                                                                 9.491     9.491
+clock uncertainty                                                                                             0.000     9.491
+cell setup time                                                                                               0.105     9.597
+data required time                                                                                                      9.597
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                      9.597
+data arrival time                                                                                                     -61.551
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -51.955
+
+
+#Path 11
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_5.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O.t_frag.XA2[0] (T_FRAG)                                              4.307    60.836
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O.t_frag.XZ[0] (T_FRAG)                                               1.605    62.442
+delay_dff_Q_5.QD[0] (Q_FRAG)                                                                                  0.000    62.442
+data arrival time                                                                                                      62.442
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_5.QCK[0] (Q_FRAG)                                                                                10.391    10.391
+clock uncertainty                                                                                             0.000    10.391
+cell setup time                                                                                               0.105    10.496
+data required time                                                                                                     10.496
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     10.496
+data arrival time                                                                                                     -62.442
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -51.945
+
+
+#Path 12
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_10.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_3.t_frag.XSL[0] (T_FRAG)                                            4.303    60.832
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_3.t_frag.XZ[0] (T_FRAG)                                             1.462    62.295
+delay_dff_Q_10.QD[0] (Q_FRAG)                                                                                 0.000    62.295
+data arrival time                                                                                                      62.295
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_10.QCK[0] (Q_FRAG)                                                                               10.345    10.345
+clock uncertainty                                                                                             0.000    10.345
+cell setup time                                                                                               0.105    10.451
+data required time                                                                                                     10.451
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     10.451
+data arrival time                                                                                                     -62.295
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -51.844
+
+
+#Path 13
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_25.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_8.t_frag.XA2[0] (T_FRAG)                                            3.958    60.487
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_8.t_frag.XZ[0] (T_FRAG)                                             1.605    62.092
+delay_dff_Q_25.QD[0] (Q_FRAG)                                                                                 0.000    62.092
+data arrival time                                                                                                      62.092
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_25.QCK[0] (Q_FRAG)                                                                               10.352    10.352
+clock uncertainty                                                                                             0.000    10.352
+cell setup time                                                                                               0.105    10.457
+data required time                                                                                                     10.457
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     10.457
+data arrival time                                                                                                     -62.092
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -51.635
+
+
+#Path 14
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_11.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4.t_frag.XSL[0] (T_FRAG)                                            5.448    61.977
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4.t_frag.XZ[0] (T_FRAG)                                             1.462    63.439
+delay_dff_Q_11.QD[0] (Q_FRAG)                                                                                 0.000    63.439
+data arrival time                                                                                                      63.439
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_11.QCK[0] (Q_FRAG)                                                                               12.032    12.032
+clock uncertainty                                                                                             0.000    12.032
+cell setup time                                                                                               0.105    12.138
+data required time                                                                                                     12.138
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     12.138
+data arrival time                                                                                                     -63.439
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -51.301
+
+
+#Path 15
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_4.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O.t_frag.XSL[0] (T_FRAG)                                              4.533    61.062
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O.t_frag.XZ[0] (T_FRAG)                                               1.462    62.524
+delay_dff_Q_4.QD[0] (Q_FRAG)                                                                                  0.000    62.524
+data arrival time                                                                                                      62.524
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_4.QCK[0] (Q_FRAG)                                                                                11.172    11.172
+clock uncertainty                                                                                             0.000    11.172
+cell setup time                                                                                               0.105    11.277
+data required time                                                                                                     11.277
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     11.277
+data arrival time                                                                                                     -62.524
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -51.247
+
+
+#Path 16
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_3.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2.t_frag.XA2[0] (T_FRAG)                                                       3.557    60.086
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2.t_frag.XZ[0] (T_FRAG)                                                        1.605    61.692
+delay_dff_Q_3.QD[0] (Q_FRAG)                                                                                  0.000    61.692
+data arrival time                                                                                                      61.692
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_3.QCK[0] (Q_FRAG)                                                                                10.387    10.387
+clock uncertainty                                                                                             0.000    10.387
+cell setup time                                                                                               0.105    10.492
+data required time                                                                                                     10.492
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     10.492
+data arrival time                                                                                                     -61.692
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -51.200
+
+
+#Path 17
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_13.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6.t_frag.XSL[0] (T_FRAG)                                            6.280    62.809
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6.t_frag.XZ[0] (T_FRAG)                                             1.462    64.271
+delay_dff_Q_13.QD[0] (Q_FRAG)                                                                                 0.000    64.271
+data arrival time                                                                                                      64.271
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_13.QCK[0] (Q_FRAG)                                                                               13.079    13.079
+clock uncertainty                                                                                             0.000    13.079
+cell setup time                                                                                               0.105    13.185
+data required time                                                                                                     13.185
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     13.185
+data arrival time                                                                                                     -64.271
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -51.086
+
+
+#Path 18
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_28.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_14.t_frag.XSL[0] (T_FRAG)                                           6.010    62.539
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_14.t_frag.XZ[0] (T_FRAG)                                            1.462    64.001
+delay_dff_Q_28.QD[0] (Q_FRAG)                                                                                 0.000    64.001
+data arrival time                                                                                                      64.001
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+clock uncertainty                                                                                             0.000    12.906
+cell setup time                                                                                               0.105    13.011
+data required time                                                                                                     13.011
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     13.011
+data arrival time                                                                                                     -64.001
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -50.990
+
+
+#Path 19
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_17.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_10.t_frag.XSL[0] (T_FRAG)                                           5.017    61.546
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_10.t_frag.XZ[0] (T_FRAG)                                            1.462    63.008
+delay_dff_Q_17.QD[0] (Q_FRAG)                                                                                 0.000    63.008
+data arrival time                                                                                                      63.008
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_17.QCK[0] (Q_FRAG)                                                                               12.165    12.165
+clock uncertainty                                                                                             0.000    12.165
+cell setup time                                                                                               0.105    12.270
+data required time                                                                                                     12.270
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     12.270
+data arrival time                                                                                                     -63.008
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -50.738
+
+
+#Path 20
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_20.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_4.t_frag.XA2[0] (T_FRAG)                                            4.869    61.398
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_4.t_frag.XZ[0] (T_FRAG)                                             1.605    63.004
+delay_dff_Q_20.QD[0] (Q_FRAG)                                                                                 0.000    63.004
+data arrival time                                                                                                      63.004
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_20.QCK[0] (Q_FRAG)                                                                               12.219    12.219
+clock uncertainty                                                                                             0.000    12.219
+cell setup time                                                                                               0.105    12.324
+data required time                                                                                                     12.324
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     12.324
+data arrival time                                                                                                     -63.004
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -50.679
+
+
+#Path 21
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_14.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_7.t_frag.XSL[0] (T_FRAG)                                            5.437    61.966
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_7.t_frag.XZ[0] (T_FRAG)                                             1.462    63.428
+delay_dff_Q_14.QD[0] (Q_FRAG)                                                                                 0.000    63.428
+data arrival time                                                                                                      63.428
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_14.QCK[0] (Q_FRAG)                                                                               12.904    12.904
+clock uncertainty                                                                                             0.000    12.904
+cell setup time                                                                                               0.105    13.009
+data required time                                                                                                     13.009
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     13.009
+data arrival time                                                                                                     -63.428
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -50.419
+
+
+#Path 22
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_24.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7.t_frag.XA2[0] (T_FRAG)                                            5.375    61.904
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7.t_frag.XZ[0] (T_FRAG)                                             1.605    63.510
+delay_dff_Q_24.QD[0] (Q_FRAG)                                                                                 0.000    63.510
+data arrival time                                                                                                      63.510
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_24.QCK[0] (Q_FRAG)                                                                               13.061    13.061
+clock uncertainty                                                                                             0.000    13.061
+cell setup time                                                                                               0.105    13.167
+data required time                                                                                                     13.167
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     13.167
+data arrival time                                                                                                     -63.510
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -50.343
+
+
+#Path 23
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_16.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_9.t_frag.XSL[0] (T_FRAG)                                            5.131    61.660
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_9.t_frag.XZ[0] (T_FRAG)                                             1.462    63.122
+delay_dff_Q_16.QD[0] (Q_FRAG)                                                                                 0.000    63.122
+data arrival time                                                                                                      63.122
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_16.QCK[0] (Q_FRAG)                                                                               12.933    12.933
+clock uncertainty                                                                                             0.000    12.933
+cell setup time                                                                                               0.105    13.038
+data required time                                                                                                     13.038
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     13.038
+data arrival time                                                                                                     -63.122
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -50.084
+
+
+#Path 24
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_23.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_6.t_frag.XA2[0] (T_FRAG)                                            3.052    59.582
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_6.t_frag.XZ[0] (T_FRAG)                                             1.606    61.187
+delay_dff_Q_23.QD[0] (Q_FRAG)                                                                                 0.000    61.187
+data arrival time                                                                                                      61.187
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_23.QCK[0] (Q_FRAG)                                                                               11.185    11.185
+clock uncertainty                                                                                             0.000    11.185
+cell setup time                                                                                               0.105    11.290
+data required time                                                                                                     11.290
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     11.290
+data arrival time                                                                                                     -61.187
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -49.897
+
+
+#Path 25
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_19.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_11.t_frag.XSL[0] (T_FRAG)                                           5.109    61.639
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_11.t_frag.XZ[0] (T_FRAG)                                            1.462    63.101
+delay_dff_Q_19.QD[0] (Q_FRAG)                                                                                 0.000    63.101
+data arrival time                                                                                                      63.101
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_19.QCK[0] (Q_FRAG)                                                                               13.142    13.142
+clock uncertainty                                                                                             0.000    13.142
+cell setup time                                                                                               0.105    13.247
+data required time                                                                                                     13.247
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     13.247
+data arrival time                                                                                                     -63.101
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -49.854
+
+
+#Path 26
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_21.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5.t_frag.XA2[0] (T_FRAG)                                            3.095    59.624
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5.t_frag.XZ[0] (T_FRAG)                                             1.605    61.230
+delay_dff_Q_21.QD[0] (Q_FRAG)                                                                                 0.000    61.230
+data arrival time                                                                                                      61.230
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_21.QCK[0] (Q_FRAG)                                                                               11.304    11.304
+clock uncertainty                                                                                             0.000    11.304
+cell setup time                                                                                               0.105    11.410
+data required time                                                                                                     11.410
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     11.410
+data arrival time                                                                                                     -61.230
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -49.820
+
+
+#Path 27
+Startpoint: delay_dff_Q_28.QZ[0] (Q_FRAG clocked by clk)
+Endpoint  : delay_dff_Q_27.QD[0] (Q_FRAG clocked by clk)
+Path Type : setup
+
+Point                                                                                                          Incr      Path
+-----------------------------------------------------------------------------------------------------------------------------
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_28.QCK[0] (Q_FRAG)                                                                               12.906    12.906
+delay_dff_Q_28.QZ[0] (Q_FRAG) [clock-to-output]                                                               1.701    14.607
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  4.135    18.742
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    19.738
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  3.681    23.419
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    24.414
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.TBS[0] (C_FRAG)                                 3.667    28.082
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag.CZ[0] (C_FRAG)                                  0.996    29.077
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XAB[0] (T_FRAG)                       4.819    33.896
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O_I2_LUT3_I1.t_frag.XZ[0] (T_FRAG)                        1.251    35.147
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.TBS[0] (C_FRAG)                                  5.270    40.417
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag.CZ[0] (C_FRAG)                                   0.996    41.412
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.TSL[0] (C_FRAG)                                 4.588    46.001
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag.CZ[0] (C_FRAG)                                  1.593    47.594
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.TBS[0] (C_FRAG)                                 3.475    51.069
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag.CZ[0] (C_FRAG)                                  0.996    52.064
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.TBS[0] (C_FRAG)                       3.469    55.534
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag.CZ[0] (C_FRAG)                        0.996    56.529
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_9.t_frag.XA2[0] (T_FRAG)                                            3.430    59.959
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_9.t_frag.XZ[0] (T_FRAG)                                             1.605    61.565
+delay_dff_Q_27.QD[0] (Q_FRAG)                                                                                 0.000    61.565
+data arrival time                                                                                                      61.565
+
+clock clk (rise edge)                                                                                         0.000     0.000
+clock source latency                                                                                          0.000     0.000
+u_qlal4s3b_cell_macro.Sys_Clk0[0] (ASSP)                                                                      0.000     0.000
+delay_dff_Q_27.QCK[0] (Q_FRAG)                                                                               12.045    12.045
+clock uncertainty                                                                                             0.000    12.045
+cell setup time                                                                                               0.105    12.151
+data required time                                                                                                     12.151
+-----------------------------------------------------------------------------------------------------------------------------
+data required time                                                                                                     12.151
+data arrival time                                                                                                     -61.565
+-----------------------------------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                                                      -49.414
+
+
+#Path 28
+Startpoint: y_dff_Q.QZ[0] (Q_FRAG clocked by y_dff_Q_CLK)
+Endpoint  : out:y.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock y_dff_Q_CLK (rise edge)                                         0.000     0.000
+clock source latency                                                  0.000     0.000
+y_dff_Q_CLK_inv_Q.f_frag.FZ[0] (F_FRAG)                               0.000     0.000
+y_dff_Q.QCK[0] (Q_FRAG)                                               3.392     3.392
+y_dff_Q.QZ[0] (Q_FRAG) [clock-to-output]                              1.701     5.093
+$iopadmap$finitesm.y.O_DAT[0] (BIDIR_CELL)                            5.491    10.584
+$iopadmap$finitesm.y.O_PAD_$out[0] (BIDIR_CELL)                       9.809    20.393
+out:y.outpad[0] (.output)                                             0.000    20.393
+data arrival time                                                              20.393
+
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+clock uncertainty                                                     0.000     0.000
+output external delay                                                 0.000     0.000
+data required time                                                              0.000
+-------------------------------------------------------------------------------------
+data required time                                                              0.000
+data arrival time                                                             -20.393
+-------------------------------------------------------------------------------------
+slack (VIOLATED)                                                              -20.393
+
+
+#Path 29
+Startpoint: x.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : d1_dff_Q.QD[0] (Q_FRAG clocked by d1_dff_Q_CLK)
+Path Type : setup
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+input external delay                                                  0.000     0.000
+x.inpad[0] (.input)                                                   0.000     0.000
+$iopadmap$finitesm.x.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$finitesm.x.I_DAT[0] (BIDIR_CELL)                           10.958    10.958
+x_LUT3_I0_1.t_frag.XA2[0] (T_FRAG)                                    5.232    16.190
+x_LUT3_I0_1.t_frag.XZ[0] (T_FRAG)                                     1.605    17.795
+d1_dff_Q.QD[0] (Q_FRAG)                                               0.000    17.795
+data arrival time                                                              17.795
+
+clock d1_dff_Q_CLK (rise edge)                                        0.000     0.000
+clock source latency                                                  0.000     0.000
+d1_dff_Q_CLK_inv_Q.f_frag.FZ[0] (F_FRAG)                              0.000     0.000
+d1_dff_Q.QCK[0] (Q_FRAG)                                              3.059     3.059
+clock uncertainty                                                     0.000     3.059
+cell setup time                                                       0.105     3.164
+data required time                                                              3.164
+-------------------------------------------------------------------------------------
+data required time                                                              3.164
+data arrival time                                                             -17.795
+-------------------------------------------------------------------------------------
+slack (VIOLATED)                                                              -14.631
+
+
+#Path 30
+Startpoint: x.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : d2_dff_Q.QD[0] (Q_FRAG clocked by d2_dff_Q_CLK)
+Path Type : setup
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+input external delay                                                  0.000     0.000
+x.inpad[0] (.input)                                                   0.000     0.000
+$iopadmap$finitesm.x.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$finitesm.x.I_DAT[0] (BIDIR_CELL)                           10.958    10.958
+x_LUT3_I0.t_frag.XA2[0] (T_FRAG)                                      5.132    16.090
+x_LUT3_I0.t_frag.XZ[0] (T_FRAG)                                       1.605    17.696
+d2_dff_Q.QD[0] (Q_FRAG)                                               0.000    17.696
+data arrival time                                                              17.696
+
+clock d2_dff_Q_CLK (rise edge)                                        0.000     0.000
+clock source latency                                                  0.000     0.000
+d2_dff_Q_CLK_inv_Q.f_frag.FZ[0] (F_FRAG)                              0.000     0.000
+d2_dff_Q.QCK[0] (Q_FRAG)                                              3.059     3.059
+clock uncertainty                                                     0.000     3.059
+cell setup time                                                       0.105     3.164
+data required time                                                              3.164
+-------------------------------------------------------------------------------------
+data required time                                                              3.164
+data arrival time                                                             -17.696
+-------------------------------------------------------------------------------------
+slack (VIOLATED)                                                              -14.531
+
+
+#Path 31
+Startpoint: x.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : y_dff_Q.QD[0] (Q_FRAG clocked by y_dff_Q_CLK)
+Path Type : setup
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+input external delay                                                  0.000     0.000
+x.inpad[0] (.input)                                                   0.000     0.000
+$iopadmap$finitesm.x.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$finitesm.x.I_DAT[0] (BIDIR_CELL)                           10.958    10.958
+x_LUT2_I1.t_frag.XAB[0] (T_FRAG)                                      4.938    15.896
+x_LUT2_I1.t_frag.XZ[0] (T_FRAG)                                       1.305    17.202
+y_dff_Q.QD[0] (Q_FRAG)                                                0.000    17.202
+data arrival time                                                              17.202
+
+clock y_dff_Q_CLK (rise edge)                                         0.000     0.000
+clock source latency                                                  0.000     0.000
+y_dff_Q_CLK_inv_Q.f_frag.FZ[0] (F_FRAG)                               0.000     0.000
+y_dff_Q.QCK[0] (Q_FRAG)                                               3.392     3.392
+clock uncertainty                                                     0.000     3.392
+cell setup time                                                       0.105     3.497
+data required time                                                              3.497
+-------------------------------------------------------------------------------------
+data required time                                                              3.497
+data arrival time                                                             -17.202
+-------------------------------------------------------------------------------------
+slack (VIOLATED)                                                              -13.704
+
+
+#End of timing report

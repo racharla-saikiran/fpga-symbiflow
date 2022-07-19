@@ -1,0 +1,55 @@
+Netlist_File: finitesm.net Netlist_ID: SHA256:232fdd042528edb99a31bbe99aabf14954eaa3661163f08410b7bff8dfbee60b
+Array size: 39 x 35 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+u_qlal4s3b_cell_macro	1	1	0	#0
+x_LUT3_I0_1.t_frag	16	7	0	#1
+x_LUT3_I0.t_frag	16	8	0	#2
+x_LUT2_I1.t_frag	16	9	0	#3
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O.t_frag	17	9	0	#4
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_2.t_frag	17	7	0	#5
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_3.t_frag	19	7	0	#6
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4.t_frag	19	9	0	#7
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5.t_frag	19	8	0	#8
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6.t_frag	21	13	0	#9
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_7.t_frag	20	14	0	#10
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8.t_frag	20	9	0	#11
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_9.t_frag	22	11	0	#12
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_10.t_frag	20	12	0	#13
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_11.t_frag	20	13	0	#14
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_12.t_frag	16	12	0	#15
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_13.t_frag	15	12	0	#16
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_1.t_frag	14	12	0	#17
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_3.t_frag	20	10	0	#18
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_4.t_frag	19	13	0	#19
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5.t_frag	18	12	0	#20
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_6.t_frag	17	11	0	#21
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7.t_frag	22	12	0	#22
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_8.t_frag	16	11	0	#23
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_9.t_frag	19	11	0	#24
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2.t_frag	18	10	0	#25
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O.t_frag	17	10	0	#26
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_1.t_frag	14	11	0	#27
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_2.t_frag	18	7	0	#28
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_14.t_frag	21	11	0	#29
+$iopadmap$finitesm.y	14	3	0	#30
+x		12	3	0	#31
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2.c_frag	19	10	0	#32
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3.c_frag	18	11	0	#33
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_I3.c_frag	19	12	0	#34
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_5_I2_LUT4_O.c_frag	17	12	0	#35
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_7_I2_LUT4_O.c_frag	15	11	0	#36
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_I0.c_frag	21	10	0	#37
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT4_O.c_frag	20	11	0	#38
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_5_I1_LUT4_O.c_frag	21	9	0	#39
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_8_I1_LUT3_I0_I1_LUT4_O.c_frag	21	12	0	#40
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_6_I1_LUT4_O.c_frag	21	14	0	#41
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT3_O_1_I2_LUT4_O.c_frag	16	10	0	#42
+$iopadmap$finitesm.cl	16	3	0	#43
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_3_I1_LUT3_O_I2_LUT2_O.t_frag	18	8	0	#44
+mclk_dffe_Q_EN_LUT3_O_I2_LUT3_I2_O_LUT2_O_4_I1_LUT4_I2_O_LUT4_I3_I2_LUT2_O.t_frag	18	9	0	#45
+delay_dff_Q	18	13	0	#46
+delay_dff_Q_1	15	9	0	#47
+$false		3	1	0	#48
+$true		2	1	0	#49
