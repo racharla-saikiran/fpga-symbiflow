@@ -1,0 +1,4 @@
+#Block Name x   y   z    pcf_line
+#----- --  --  -    ----
+$iopadmap$hello.y  28  32  0  # set_io y     36
+x      34  32  0  # set_io x     40

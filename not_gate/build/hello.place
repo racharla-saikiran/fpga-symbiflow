@@ -1,0 +1,10 @@
+Netlist_File: hello.net Netlist_ID: SHA256:089e7c217758337a87464f0a1ddbe63a2e3fb8b8026b01a9cfafdbc985d01e7e
+Array size: 39 x 35 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+$iopadmap$hello.y	28	32	0	#0
+x		34	32	0	#1
+y_LUT1_O.f_frag	29	8	0	#2
+$false		3	1	0	#3
+$true		2	1	0	#4

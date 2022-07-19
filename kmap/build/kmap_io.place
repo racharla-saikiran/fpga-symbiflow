@@ -1,0 +1,6 @@
+#Block Name x   y   z    pcf_line
+#----- --  --  -    ----
+B      14  32  0  # set_io B 30
+C      12  32  0  # set_io C 28
+D      10  32  0  # set_io D 27
+$iopadmap$kmap.x   8  32  0  # set_io x 26
