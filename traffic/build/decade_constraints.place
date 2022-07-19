@@ -1,0 +1,12 @@
+$iopadmap$decade.redled  12   3  0  # set_io redled  3
+$iopadmap$decade.yellowled  14   3  0  # set_io yellowled  64
+$iopadmap$decade.greenled  16   3  0  # set_io greenled  62
+$iopadmap$decade.num  22   3  0  # set_io num(0)  60
+$iopadmap$decade.num_1  24   3  0  # set_io num(1)  59
+$iopadmap$decade.num_2  26   3  0  # set_io num(2)  57
+$iopadmap$decade.num_3  28   3  0  # set_io num(3)  56
+$iopadmap$decade.num1  30   3  0  # set_io num1(0)  55
+$iopadmap$decade.num1_1  32   3  0  # set_io num1(1)  54
+$iopadmap$decade.num1_2  34   3  0  # set_io num1(2)  53
+$iopadmap$decade.num1_3  34  32  0  # set_io num1(3)  40
+x              32  32  0  # set_io x  42

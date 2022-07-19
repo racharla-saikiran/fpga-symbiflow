@@ -1,0 +1,13 @@
+set_io redled  3
+set_io yellowled  64
+set_io greenled  62
+set_io num(0)  60
+set_io num(1)  59
+set_io num(2)  57
+set_io num(3)  56
+set_io num1(0)  55
+set_io num1(1)  54
+set_io num1(2)  53
+set_io num1(3)  40
+set_io x  42
+
