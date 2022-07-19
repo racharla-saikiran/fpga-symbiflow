@@ -1,0 +1,47 @@
+Netlist_File: check.net Netlist_ID: SHA256:4d41c0760caa76a7a08dc512d05a8efe502e9e30966a7a8c9a5f452f2d0b951c
+Array size: 39 x 35 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+$iopadmap$check.a	30	32	0	#0
+$iopadmap$check.a1	2	30	0	#1
+$iopadmap$check.c	24	32	0	#2
+$iopadmap$check.d	34	32	0	#3
+$iopadmap$check.d1	3	29	0	#4
+$iopadmap$check.e	8	3	0	#5
+$iopadmap$check.e1	10	32	0	#6
+$iopadmap$check.f	34	3	0	#7
+$iopadmap$check.f1	2	29	0	#8
+$iopadmap$check.g	32	3	0	#9
+$iopadmap$check.g1	1	29	0	#10
+$iopadmap$check.h	30	3	0	#11
+$iopadmap$check.h1	3	28	0	#12
+$iopadmap$check.i1	2	31	0	#13
+$iopadmap$check.j	28	3	0	#14
+$iopadmap$check.j1	2	28	0	#15
+$iopadmap$check.k	26	3	0	#16
+$iopadmap$check.k1	1	28	0	#17
+$iopadmap$check.l	24	3	0	#18
+$iopadmap$check.l1	3	27	0	#19
+$iopadmap$check.l2	2	27	0	#20
+$iopadmap$check.m	16	32	0	#21
+$iopadmap$check.o1	1	31	0	#22
+$iopadmap$check.p	22	3	0	#23
+$iopadmap$check.p1	3	30	0	#24
+$iopadmap$check.q1	14	32	0	#25
+$iopadmap$check.r	10	3	0	#26
+$iopadmap$check.r1	8	32	0	#27
+$iopadmap$check.s	32	32	0	#28
+$iopadmap$check.s1	1	30	0	#29
+$iopadmap$check.t	12	3	0	#30
+$iopadmap$check.t1	6	32	0	#31
+$iopadmap$check.u	16	3	0	#32
+$iopadmap$check.u1	3	31	0	#33
+$iopadmap$check.w	6	3	0	#34
+$iopadmap$check.w1	12	32	0	#35
+$iopadmap$check.x	26	32	0	#36
+$iopadmap$check.y	14	3	0	#37
+$iopadmap$check.y1	4	32	0	#38
+$iopadmap$check.z	28	32	0	#39
+$false		3	1	0	#40
+$true		2	1	0	#41

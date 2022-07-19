@@ -1,0 +1,7 @@
+$iopadmap$sevenseg.a  14   3  0  # set_io a 64
+$iopadmap$sevenseg.b  16   3  0  # set_io b 62
+$iopadmap$sevenseg.c  22   3  0  # set_io c 60
+$iopadmap$sevenseg.d  24   3  0  # set_io d 59
+$iopadmap$sevenseg.e  26   3  0  # set_io e 57
+$iopadmap$sevenseg.f  28   3  0  # set_io f 56
+$iopadmap$sevenseg.g  30   3  0  # set_io g 55
