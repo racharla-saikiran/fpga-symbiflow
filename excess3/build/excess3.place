@@ -1,0 +1,29 @@
+Netlist_File: excess3.net Netlist_ID: SHA256:27ec63062f5a25b9a231f49998c9524a13994ff3f6ba4d030c02dd26fe3ba1a0
+Array size: 39 x 35 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+b_mux4x0_Q_C_LUT4_O.c_frag	30	8	0	#0
+e_mux4x0_Q_C_LUT4_O.c_frag	32	8	0	#1
+b_mux4x0_Q_S0_LUT4_O.c_frag	32	7	0	#2
+b_mux4x0_Q_S1_LUT4_O.c_frag	30	7	0	#3
+a_LUT4_O.c_frag	29	7	0	#4
+c_LUT4_O.c_frag	29	8	0	#5
+d_LUT4_O.c_frag	30	6	0	#6
+f_LUT4_O.c_frag	28	4	0	#7
+g_LUT4_O.c_frag	28	5	0	#8
+b_mux4x0_Q.t_frag	28	7	0	#9
+e_mux4x0_Q.t_frag	28	8	0	#10
+$iopadmap$excess3.b	14	3	0	#11
+$iopadmap$excess3.e	24	3	0	#12
+$iopadmap$excess3.a	12	3	0	#13
+$iopadmap$excess3.c	16	3	0	#14
+$iopadmap$excess3.d	22	3	0	#15
+$iopadmap$excess3.f	26	3	0	#16
+$iopadmap$excess3.g	28	3	0	#17
+x		34	3	0	#18
+z		30	3	0	#19
+w		34	32	0	#20
+y		32	3	0	#21
+$false		3	1	0	#22
+$true		2	1	0	#23

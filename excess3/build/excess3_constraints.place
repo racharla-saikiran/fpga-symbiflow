@@ -1,0 +1,11 @@
+$iopadmap$excess3.a  12   3  0  # set_io a  3
+$iopadmap$excess3.b  14   3  0  # set_io b  64
+$iopadmap$excess3.c  16   3  0  # set_io c  62
+$iopadmap$excess3.d  22   3  0  # set_io d  60
+$iopadmap$excess3.e  24   3  0  # set_io e  59
+$iopadmap$excess3.f  26   3  0  # set_io f  57
+$iopadmap$excess3.g  28   3  0  # set_io g  56
+z      30   3  0  # set_io z  55
+y      32   3  0  # set_io y  54
+x      34   3  0  # set_io x  53
+w      34  32  0  # set_io w  40
